@@ -1,0 +1,18 @@
+.Todoitem {
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
+    border: 1px solid rgb(87, 82, 82);
+    display: flex;
+}
+.Todoitem > p{
+    margin: 15px;
+    padding-left: 15px;
+}
+.Todoitem >img{
+    margin: 15px;
+}
+.Todoitem-complete{
+    text-decoration: line-through;
+    opacity: 0.3;
+}

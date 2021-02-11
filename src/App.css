@@ -1,7 +1,31 @@
 .App {
   text-align: center;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
-
+.App .header{
+  font-weight: 300;
+  font-size: 24px;
+  color: #4d4d4d;
+  border: 1px solid rgb(87, 82, 82);
+  display: flex;
+  display: flex;
+}
+.App .header >img{
+  margin: 15px;
+}
+.App .header >input{
+  padding-left: 32px;
+  font-weight: 300;
+  font-size: 24px;
+  border: none;
+}
+.App .header >input:focus{
+  outline: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
